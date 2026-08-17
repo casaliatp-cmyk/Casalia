@@ -191,8 +191,8 @@ export const products: Product[] = [
     rating: 4.6,
     reviewCount: 96,
     images: [
-      "public/gorras/Gorra01.png",
-      "public/gorras/Gorra01.png'",
+      "gorras/Gorra01.png",
+      "gorras/Gorra01.png'",
     ],
     shortDescription: "Algodón orgánico en tono oliva con bordado tono a tono.",
     description:
