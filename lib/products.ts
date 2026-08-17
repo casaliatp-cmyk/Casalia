@@ -186,7 +186,7 @@ export const products: Product[] = [
     slug: "Gorra Negra Premium",
     name: "Gorra Negra Premium",
     category: "gorras",
-    price: 89000,
+    price: 59900,
     previousPrice: 49900,
     rating: 4.6,
     reviewCount: 96,
