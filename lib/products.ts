@@ -183,7 +183,7 @@ export const products: Product[] = [
   },
   {
     id: "p5",
-    slug: "gorra-vértice -premium",
+    slug: "gorra-vértice-premium",
     name: "Gorra Vertice Premium",
     category: "gorras",
     price: 59900,
