@@ -183,11 +183,11 @@ export const products: Product[] = [
   },
   {
     id: "p5",
-    slug: "gorra-olive-heritage",
-    name: "Gorra Olive Heritage",
+    slug: "Gorra Negra Premium",
+    name: "Gorra Negra Premium",
     category: "gorras",
     price: 89000,
-    previousPrice: 119000,
+    previousPrice: 49900,
     rating: 4.6,
     reviewCount: 96,
     images: [
