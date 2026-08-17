@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import { Minus, Plus, ShoppingBag, Trash2, X } from "lucide-react";
+import { Minus, Plus, ShoppingBag, Trash2, X, MessageCircle } from "lucide-react";
 import { useCart } from "@/lib/cart-context";
 import { formatPrice } from "@/lib/products";
 
@@ -17,7 +17,30 @@ export default function CartDrawer() {
     updateQuantity,
     removeItem,
   } = useCart();
+  function handleWhatsAppOrder() {
+    const phone = "573233635993";
 
+    const productLines = items
+      .map(
+        (item) =>
+          `• ${item.name} x${item.quantity} — ${formatPrice(
+            item.price * item.quantity
+          )}`
+      )
+      .join("\n");
+
+    const message = `Hola, quiero realizar este pedido en CASALIA:
+
+${productLines}
+
+Total: ${formatPrice(subtotal)}
+
+Quedo atenta para confirmar disponibilidad y envío.`;
+
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+    window.open(url, "_blank");
+  }
   return (
     <AnimatePresence>
       {isDrawerOpen && (
@@ -123,13 +146,16 @@ export default function CartDrawer() {
                   <p className="mb-5 text-xs text-taupe">
                     Envío e impuestos se calculan en el checkout.
                   </p>
-                  <Link
-                    href="/checkout"
-                    onClick={closeDrawer}
-                    className="btn-primary w-full"
-                  >
-                    Finalizar compra
-                  </Link>
+                  <button
+  onClick={() => {
+    handleWhatsAppOrder();
+    closeDrawer();
+  }}
+  className="btn-primary flex w-full items-center justify-center gap-2"
+>
+  <MessageCircle className="h-4 w-4" />
+  Pedir por WhatsApp
+</button>
                 </div>
               </>
             )}
