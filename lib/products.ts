@@ -182,28 +182,29 @@ export const products: Product[] = [
     reviews: sampleReviews.slice(0, 1),
   },
   {
-    id: "p5",
-    slug: "gorra-vértice-premium",
-    name: "Gorra Vértice Premium",
-    category: "gorras",
-    price: 59900,
-    previousPrice: 49900,
-    rating: 4.6,
-    reviewCount: 96,
-    images: [
-      "gorras/Gorra01.png",],
-    shortDescription: "Estilo urbano, ligero y versátil.",
-    description:
-      "Diseño moderno y versátil para complementar cualquier look. Su estructura ligera y ajuste cómodo la convierten en una opción ideal para el día a día, combinando estilo y practicidad.",
-    features: [
-      "100% de frescura",
-      "Bordado tono a tono",
-      "Cierre trasero ajustable",
-      "Visera pre-curvada",
-    ],
-    reviews: sampleReviews.slice(0, 2),
-  },
-  {
+   {
+  id: "p5",
+  slug: "gorra-vertice-premium",
+  name: "Gorra Vertice Premium",
+  category: "gorras",
+  price: 59900,
+  previousPrice: 49900,
+  rating: 4.6,
+  reviewCount: 96,
+  images: [
+    "/gorras/Gorra01.png",
+  ],
+  shortDescription: "Estilo urbano, ligero y versátil.",
+  description:
+    "Diseño moderno y versátil para complementar cualquier look. Su estructura ligera y ajuste cómodo la convierten en una opción ideal para el día a día.",
+  features: [
+    "100% de frescura",
+    "Bordado tono a tono",
+    "Cierre trasero ajustable",
+    "Visera pre-curvada",
+  ],
+  reviews: sampleReviews.slice(0, 2),
+},
     id: "p6",
     slug: "gorra-premium-negra",
     name: "Gorra Premium Negra",
