@@ -181,6 +181,7 @@ export const products: Product[] = [
     ],
     reviews: sampleReviews.slice(0, 1),
   },
+  {
   id: "p5",
   slug: "gorra-vertice-premium",
   name: "Gorra Vertice Premium",
@@ -203,6 +204,7 @@ export const products: Product[] = [
   ],
   reviews: sampleReviews.slice(0, 2),
 },
+{      
     id: "p6",
     slug: "gorra-premium-negra",
     name: "Gorra Premium Negra",
