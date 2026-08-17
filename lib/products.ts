@@ -191,7 +191,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviewCount: 96,
     images: [
-      "gorras/Gorra02.png",],
+      "gorras/Gorra1.png",],
     shortDescription: "Estilo urbano, ligero y versátil.",
     description:
       "Diseño moderno y versátil para complementar cualquier look. Su estructura ligera y ajuste cómodo la convierten en una opción ideal para el día a día, combinando estilo y practicidad.",
@@ -214,7 +214,7 @@ export const products: Product[] = [
     isNew: true,
     badge: "Nuevo",
     images: [
-      "gorras/Gorra01.png", "gorras/Gorra01.png",
+      "gorras/Gorra02.png", "gorras/Gorra02.png",
     ],
     shortDescription: "Diseño negro, moderno y atemporal. Una gorra versátil que aporta carácter a cualquier outfit y es perfecta para acompañarte todos los días.",
     description:
