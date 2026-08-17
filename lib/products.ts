@@ -184,7 +184,7 @@ export const products: Product[] = [
   {
     id: "p5",
     slug: "gorra-vértice-premium",
-    name: "Gorra Vertice Premium",
+    name: "Gorra Vértice Premium",
     category: "gorras",
     price: 59900,
     previousPrice: 49900,
@@ -214,8 +214,7 @@ export const products: Product[] = [
     isNew: true,
     badge: "Nuevo",
     images: [
-      "gorras/Gorra02.png",
-    ],
+      "gorras/Gorra02.png",],
     shortDescription: "Diseño negro, moderno y atemporal. Una gorra versátil que aporta carácter a cualquier outfit y es perfecta para acompañarte todos los días.",
     description:
       "Ligera, transpirable y fácil de combinar. La gorra premium negra es el complemento silencioso para looks de diario.",
