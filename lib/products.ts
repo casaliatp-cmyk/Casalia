@@ -181,9 +181,7 @@ export const products: Product[] = [
     ],
     reviews: sampleReviews.slice(0, 1),
   },
-  {
-   {
-  id: "p5",
+  {id: "p5",
   slug: "gorra-vertice-premium",
   name: "Gorra Vertice Premium",
   category: "gorras",
