@@ -196,7 +196,7 @@ export const products: Product[] = [
     description:
       "Diseño moderno y versátil para complementar cualquier look. Su estructura ligera y ajuste cómodo la convierten en una opción ideal para el día a día, combinando estilo y practicidad.",
     features: [
-      "100% de frescura,
+      "100% de frescura",
       "Bordado tono a tono",
       "Cierre trasero ajustable",
       "Visera pre-curvada",
