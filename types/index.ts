@@ -33,6 +33,11 @@ export interface Product {
   reviewCount: number;
   badge?: "Nuevo" | "Más vendido" | "Edición limitada";
   images: string[];
+    colors?: {
+    name: string;
+    value: string;
+    image: string;
+  }[];
   shortDescription: string;
   description: string;
   features: string[];
