@@ -159,7 +159,7 @@ export const products: Product[] = [
     { name: "Negro", value: "negro", image: "/tecnologia/Reloj-Banda-Negro.png" },
     { name: "Blanco", value: "blanco", image: "/tecnologia/Reloj-Banda-blanco.png" },
     { name: "Gris", value: "gris", image: "/tecnologia/Reloj-Banda-gris.png" },
-  ],
+  ],reviews: [],
 },
 {
   id: "p4",
