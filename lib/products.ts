@@ -160,8 +160,9 @@ export const products: Product[] = [
     { name: "Blanco", value: "blanco", image: "/tecnologia/Reloj-Banda-blanco.png" },
     { name: "Gris", value: "gris", image: "/tecnologia/Reloj-Banda-gris.png" },
   ],
-  {
-    id: "p4",
+},
+{
+  id: "p4",
     slug: "altavoz-portatil-terra",
     name: "Altavoz Portátil Terra",
     category: "tecnologia",
